@@ -447,3 +447,5 @@ lube.tcpClient = common.class("lube.tcpClient", tcpClient, lube.Client)
 lube.Server = common.class("lube.Server", server)
 lube.udpServer = common.class("lube.udpServer", udpServer, lube.Server)
 lube.tcpServer = common.class("lube.tcpServer", tcpServer, lube.Server)
+
+return lube
